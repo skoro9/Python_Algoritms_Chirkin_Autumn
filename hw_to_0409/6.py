@@ -44,3 +44,4 @@ if minus == 1:
 f.close()
 f = open('output.txt', 'w')
 f.write(result_end)
+f.close()
