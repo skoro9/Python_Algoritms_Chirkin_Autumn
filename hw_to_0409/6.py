@@ -7,7 +7,6 @@ for line in f:
 system = ''.join(intro[2])
 system = int(system)
 numbers = [int(x, system) for x in intro[0]]
-# numbers = list(map(int, intro[0]))
 operation = ''.join(intro[1])
 result_1 = numbers[0]
 for n in range(1, len(numbers)):
