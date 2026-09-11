@@ -43,4 +43,8 @@ if minus == 1:
 f.close()
 f = open('output.txt', 'w')
 f.write(result_end)
+<<<<<<< HEAD
 f.close()
+=======
+f.close()
+>>>>>>> 4c93fded177eb75e605702d8295e0d86c7a26135
